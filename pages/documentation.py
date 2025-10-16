@@ -14,7 +14,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["WWDC*", "Getting Started", "Changing Pl
 
 with tab1:
     st.subheader("Introduction")
-    st.image(str(ROOT / "static" / "WWDC_art.png"), caption="Alicia Hayden on 'What We Don't Capture' by Alicia Hayden.", width=1024)
+    st.image(str(ROOT / "static" / "WWDC_art.png"), caption="What We Don't Capture: artwork by Alicia Hayden.", width=1024)
     st.markdown(
     """
     **WWDC UI** provides an interface for interacting with embeddings produced by What We Don't C*. 
